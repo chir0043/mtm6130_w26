@@ -3,147 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project HTML</title>
-    <!-- <link rel="stylesheet" href=""> -->
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/main.css">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <img src="images/logo.png" alt="Media logo">
-    </header>
-
     <!-- Navigation -->
+    <header>
+    <div class="nav-container">
+        <img src="images/logo.png" alt="Media logo">
+
     <nav>
         <ul>
-            <li><a href="home">Home</a></li>
-            <li><a href="about">About Us</a></li>
-            <li><a href="services">services</a></li>
-            <li><a href="team">Team</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+     </nav>
 
-    <!-- Banner -->
+        <form class="search">
+            <input type="text" placeholder="Search">
+            <button type="submit">🔍︎</button>
+        </form>
+
+      </div>
+    </header>
+
+    <!-- Header -->
     <main>
         <section id="hero">
          <img src="images/main-banner.jpg" alt="Banner">
-         <h2>Welcome to Three Star Media</h2>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sit illum, harum, culpa omnis ad fuga officiis iure soluta magnam quibusdam ea repudiandae, ipsam dolorum ratione dignissimos magni consequuntur eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea ad provident dolorum, fuga sapiente libero, maiores delectus reiciendis placeat beatae suscipit aliquam error officiis hic perferendis saepe accusamus excepturi!</p>
 
+          <div class="hero-text">  
+         <h1>Welcome to Three Star <br> Media</h1>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sit illum, harum, culpa omnis ad fuga officiis iure soluta magnam quibusdam ea repudiandae, ipsam dolorum ratione dignissimos magni consequuntur eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea ad provident dolorum, fuga sapiente libero.</p>
          <a href="#">Connect with us</a>
+         </div>
         </section>
+    </main>
          
         <!-- About Us -->
         <section id="about">
+        <div class="about container">
          <img src="images/about-us.jpg" alt="Room with pingpong table">
+
+         <div>
          <h2>About Us</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequuntur voluptates, ab excepturi commodi est quam corporis animi alias omnis nisi quod repudiandae. </p>
 
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequuntur voluptates, ab excepturi commodi est quam corporis animi alias omnis nisi quod repudiandae corrupti magni, delectus ut iusto nihil. Consequuntur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus tenetur fugit sed odit cupiditate numquam minima, ea animi asperiores laboriosam quis, minus veritatis cumque ipsa maiores cum quisquam aliquam reprehenderit! </p>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium odit eligendi cupiditate, illum possimus dolorum, natus hic quasi doloremque molestiae corrupti. </p>
+         </div>
 
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium odit eligendi cupiditate, illum possimus dolorum, natus hic quasi doloremque molestiae corrupti assumenda veniam quisquam harum. Aut iusto ab porro a! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, maiores porro nulla repellendus labore beatae nostrum provident nam ea cum culpa est veritatis quae commodi excepturi, similique recusandae blanditiis autem. </p>
+         </div>
         </section>
 
         <!-- Services -->
         <section id="services">
-            <h2>Services</h2>
-          <article>
+            <div class="container">
+            <h2> Our Services</h2>
+
+        <div class="services-grid">
+
+          <div class="service">
             <img src="images/digital.jpg" alt="Computer and phone">
+            <div class="service-text">
              <h3>Digital Transformation</h3>
 
              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, eius sunt. Sunt deleniti animi sequi ex explicabo at cupiditate vel necessitatibus dolorum aliquid in non quo dicta beatae, cum nesciunt!</p>
              <a href="#">Digital Plans</a>
-             </article>
+          </div>
+        </div>
 
-             <article>
+             <div class="service">
                 <img src="images/marketing.jpg" alt="Computer with analysis">
+                <div class="service-text">
                 <h3>Marketing</h3>
 
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptatem adipisci et accusamus, itaque tenetur qui quia fugiat quos repudiandae inventore officiis libero officia odio impedit quidem ipsum fugit?</p>
                 <a href="#">Marketing Plans</a>
-             </article>
+             </div>
+            </div>
 
-             <article>
+             <div class="service">
                 <img src="images/video.jpg" alt="Person holding phone">
+                <div class="service-text">
                 <h3>Video Production</h3>
 
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, itaque cupiditate minima eligendi nostrum autem aliquam harum unde libero nesciunt maxime et odio nihil minus, ad earum laboriosam. Distinctio, quasi.</p>
                 <a href="#">Video Plans</a>
-             </article>
+             </div>
+            </div>
 
-             <article>
+             <div class="service">
                 <img src="images/web.jpg" alt="Phone and notebook">
+                <div class="service-text">
                 <h3>Web Development</h3>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo ex, rem in quibusdam voluptate sequi possimus accusantium culpa a amet error aut facere, totam asperiores praesentium maxime eaque excepturi!</p>
                 <a href="#">Web Plans</a>
-             </article>
+             </div>
+            </div>
 
-             <article>
+             <div class="service">
                 <img src="images/print.jpg" alt="Mailboxes">
+                <div class="service-text">
                 <h3>Print</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae excepturi animi similique aspernatur explicabo provident quia velit aliquid, beatae eaque obcaecati eveniet neque voluptate quas quasi eum in nemo amet? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis voluptatibus, neque reprehenderit eligendi fugiat officiis vitae quo tempore adipisci ipsa impedit aliquid perspiciatis rem a? Inventore in aspernatur accusamus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae excepturi animi similique aspernatur explicabo provident quia velit aliquid, beatae eaque obcaecati eveniet neque. </p>
                 <a href="#">Print Plans</a>
-             </article>
+            </div>
+        </div>
+    </div>
+        </div>
         </section>
 
+        <!-- Vision -->
         <section id="vision">
-        <h2>Our Vision</h2>
-        <img src="images/vision.jpg" alt="Paper boats">
+         <img src="images/vision.jpg" alt="Paper boats">   
 
+        <div class="vision-content">
+        <h2>Our Vision</h2>
+        
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis labore id iusto illo dolore sapiente suscipit beatae cum animi repellendus modi laudantium, quibusdam quam dicta. Deleniti dolorum sunt aspernatur ipsam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit corrupti maxime, dolores cum numquam omnis, tempora earum odit exercitationem ratione nesciunt doloribus neque quis quidem architecto, unde mollitia asperiores illum!</p>
         <a href="#">Learn More</a>
+        </div>
         </section>
 
         <!-- Team -->
         <section id="team">
+            <div class="container">
             <h2>Our Team</h2>
             
-            <article>
+            <div class="team-member">
                 <img src="images/john.jpg" alt="John Doe">
+                <div class="team-text">
                 <h3>John Doe</h3>
-                <p>CEO and Co-Owner</p>
+                <h4>CEO and Co-Owner</h4>
                  
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odit eaque temporibus explicabo. Minus consequatur voluptates debitis dolores velit repellendus, autem fuga harum ab ratione explicabo vero hic optio vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis accusamus odit aliquam perspiciatis voluptate eius esse, ad eveniet? Quibusdam obcaecati deserunt voluptas esse dolorem velit aliquam excepturi recusandae exercitationem iste.</p>
-            </article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odit eaque temporibus explicabo. Minus consequatur voluptates debitis dolores velit repellendus, autem fuga harum ab ratione explicabo vero hic optio vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
 
-            <article>
+            <div class="team-member">
                 <img src="images/bob.jpg" alt="Bob Rite">
+                <div class="team-text">
                 <h3>Bob Rite</h3>
-                <p>CFO and Co-owner</p>
+                <h4>CFO and Co-owner</h4>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ipsum odit. Nihil nulla libero ipsum nam ipsam animi earum optio quisquam maiores placeat voluptatem, ipsa itaque, provident rem quibusdam enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde veritatis inventore recusandae aperiam minus laudantium asperiores eveniet laboriosam. Distinctio porro, quam sapiente dolorum nulla repudiandae! Sed debitis nulla esse.</p>
-            </article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ipsum odit. Nihil nulla libero ipsum nam ipsam animi earum optio quisquam maiores placeat voluptatem, ipsa itaque, provident rem quibusdam enim! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
         </section>
 
         <!-- Contact Form -->
-        <section id="contact">
-            <h2>Contact Us</h2>
+        <div class="contact-container">
+      <div class="contact-form">
+      <h2>Send us a message</h2>
 
-            <h3>Send us a message</h3>
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button>Send</button>
+    </div>
 
-            <form>
-            <label for="name">Full Name</label>
-            <input type="text" id="name">
-
-            <label for="email">Email</label>
-            <input type="email" id="email">
-
-            <label for="message">Message</label>
-            <textarea id="message"></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-
-         <!-- Hours of Operation -->
-        <h3>Hours of operation</h3>
+    <div class="contact-map">
+      <h3>Location</h3>
+      <!-- Your embedded map iframe -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.950174931716!2d-75.75790842380944!3d45.34981804106342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1776117766602!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   </div>
+        <!-- Hours of Operation -->
+           <div class="contact-hours">
+        <h3>Hours of Operation</h3>
 
         <table>
             <tr>
                 <th>Days</th>
                 <th>Hours</th>
-            </tr>
+            </tr> 
             <tr>
                 <td>Monday - Friday</td>
                 <td>9 AM - 6 PM</td>
@@ -153,16 +194,11 @@
                 <td>Closed</td>
             </tr>
         </table>
-
-        <!-- Map Loaction -->
-        <h3>Location</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.950174931716!2d-75.75790842380944!3d45.34981804106342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1776117766602!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-    
+        </div>
+       
     <footer>
         <p>&copy; Copyright Three Star Media, 2020</p>
-        <p>All images are taken from Unsplash</p>
+        <p>All images are taken from <a href="https://unsplash.com">Unsplash</a></p>
     </footer>
-    </main>
 </body>
 </html>
